@@ -139,6 +139,7 @@ body {
   border: 2px solid white;
   background-color: transparent;
   transition: background-color 1s;
+  cursor: pointer;
 }
 #learn-teach .holder .sec .learn a {
   text-decoration: none;

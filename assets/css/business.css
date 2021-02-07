@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +49,7 @@ body {
   cursor: pointer;
 }
 .cont .text .bbtn:hover {
-  background-color: #b81220;
+  background-color: #c71827;
 }
 .cont .text .bbtn a {
   text-decoration: none;
@@ -58,5 +58,81 @@ body {
   text-transform: uppercase;
   /* letter-spacing: 1.5px; */
 }
-.cont .text .bbtn a b {
+
+/* Section Two: Power your learning */
+
+#pow{
+background-color: #ed1b2d;
+
+}
+#pow .pow-cont{
+  margin: 30px 18%;
+  padding: 5%;
+  text-align: center;
+}
+#pow .pow-cont .heading{
+color: white;
+}
+#pow .pow-cont .heading h1{
+font-size: 2.5rem;
+}
+#pow .pow-cont .req-btn{
+  padding: 12px;
+background-color: white;
+width: 25%;
+margin: 0 auto;
+margin-top: 20px;
+border-radius: 3px;
+cursor: pointer;
+transition: background-color .5s;
+}
+#pow .pow-cont .req-btn:hover{
+background-color: #d1d1d1;
+}
+#pow .req-btn a {
+text-decoration: none;
+color: #ed1b2d;
+letter-spacing: .035rem;
+}
+
+/* Section Three: Prepare */
+#prepare{
+margin: 20px 10%;
+text-align: center;
+}
+#prepare .prep-head{
+text-align: center;
+}
+#prepare .prep-head h1{
+font-size: 2rem;
+line-height: 1.5;
+}
+#prepare .cards{
+  text-align: center;
+margin-top: 20px;
+display: flex;
+}
+#prepare .cards .card{
+width: 32%;
+padding-right: 2%;
+}
+#prepare .cards .card:last-child{
+padding-right: 0;
+}
+#prepare .cards .card .card-img{
+
+}
+#prepare .cards .card .card-img img.card-imgs{
+  width: auto;
+  max-height: 150px;
+  padding: 25px 0;
+}
+#prepare .cards .card h4{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#prepare .cards .card p{
+  font-size: 1rem;
+  line-height: 1.6;
 }
