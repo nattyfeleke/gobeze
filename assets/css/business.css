@@ -1,138 +1,58 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.all-wrapper {
-  margin-top: 30px;
-}
+  #j{
+background-image: url(../images/teach.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+border-bottom: 7px solid #040707;
+  }
+  #j .filter{
+    background: rgba(237, 27, 45, 0.6);
 
-.cont {
-  padding: 0 10%;
-  display: flex;
-}
-.cont .img {
-  background-image: url('../images/b.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: 300px;
-  border-top-right-radius: 400px;
-  border-bottom-right-radius: 400px;
-  /* border-radius: 250px; */
-}
-.cont .text {
-  text-align: center;
-  margin-top: 30px;
-  padding-left: 40px;
-}
-.cont .text .headline {
-  text-align: left;
-}
-.cont .text p {
-  margin-top: 10px;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-align: left;
-}
-.cont .text .bbtn {
-  margin-top: 30px;
-  text-align: left;
-  background-color: #ed1b2d;
-  border-radius: 3px;
-  padding: 20px;
-  width: 30%;
-  cursor: pointer;
-}
-.cont .text .bbtn:hover {
-  background-color: #c71827;
-}
-.cont .text .bbtn a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  /* letter-spacing: 1.5px; */
-}
-
-/* Section Two: Power your learning */
-
-#pow{
-background-color: #ed1b2d;
-
-}
-#pow .pow-cont{
-  margin: 30px 18%;
-  padding: 5%;
-  text-align: center;
-}
-#pow .pow-cont .heading{
+  }
+  #j .filter .cont{
+padding: 40px 35% 30px 30px;
 color: white;
+  }
+  #j .filter .cont h2{
+      font-size: 2.5rem;
+      line-height: 1.5;  
 }
-#pow .pow-cont .heading h1{
-font-size: 2.5rem;
+#j .filter .cont p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
-#pow .pow-cont .req-btn{
-  padding: 12px;
-background-color: white;
-width: 25%;
-margin: 0 auto;
-margin-top: 20px;
-border-radius: 3px;
+
+#j .filter .cont p.emphasize{
+letter-spacing: 0.2px;
+font-size: 1.34rem;
+}
+#j .filter .cont .more{
+    margin-top: 30px;
+background-color: #ed1b2d;
+padding: 12px;
+width:fit-content;
+border-radius: 4px;
 cursor: pointer;
-transition: background-color .5s;
+transition: background-color .4s;
 }
-#pow .pow-cont .req-btn:hover{
-background-color: #d1d1d1;
+#j .filter .cont .more:hover{
+background-color: #040707 ;
 }
-#pow .req-btn a {
+#j .filter .cont a{
 text-decoration: none;
-color: #ed1b2d;
-letter-spacing: .035rem;
-}
-
-/* Section Three: Prepare */
-#prepare{
-margin: 20px 10%;
-text-align: center;
-}
-#prepare .prep-head{
-text-align: center;
-}
-#prepare .prep-head h1{
-font-size: 2rem;
-line-height: 1.5;
-}
-#prepare .cards{
-  text-align: center;
-margin-top: 20px;
-display: flex;
-}
-#prepare .cards .card{
-width: 32%;
-padding-right: 2%;
-}
-#prepare .cards .card:last-child{
-padding-right: 0;
-}
-#prepare .cards .card .card-img{
-
-}
-#prepare .cards .card .card-img img.card-imgs{
-  width: auto;
-  max-height: 150px;
-  padding: 25px 0;
-}
-#prepare .cards .card h4{
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-#prepare .cards .card p{
-  font-size: 1rem;
-  line-height: 1.6;
+color: white;
+font-size: 1.2rem;
+letter-spacing: 1px;
 }

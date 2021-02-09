@@ -14,12 +14,11 @@ body {
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
-  /* position: relative; */
-  clear: both;
 }
-.jumbo-content {
+.jumbo .jumbo-content {
   position: relative;
+  height: 400px;
+
   background: rgba(237, 27, 45, 0.6);
 }
 .text-area {
@@ -39,17 +38,18 @@ body {
 }
 .jumbo-content .jumbo-btn {
   margin-top: 10px;
-  padding: 0.375rem;
-  background-color: #040707;
+  padding: 0.4rem;
+  background-color: #ed1b2d;
   color: white;
-  width: 140px;
+  width: fit-content;
   border-radius: 6px;
-  transition: background-color 1s;
+  transition: background-color .4s;
+  cursor: pointer;
   /* transition: color 1s; */
 }
 .jumbo-content .jumbo-btn:hover {
-  background-color: white;
-  color: #040707;
+  background-color: #040707;
+  /* color: #040707; */
 }
 .jumbo-content .jumbo-btn a {
   text-align: center;
@@ -59,7 +59,7 @@ body {
   text-decoration: none;
 }
 .jumbo-content .jumbo-btn a:hover {
-  color: #040707;
+  /* color: #040707; */
 }
 
 /*Style for Why Gobeze Section*/
