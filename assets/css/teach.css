@@ -47,17 +47,11 @@ section.why {
 }
 .why .line1 {
   padding-top: 10px;
-  margin-left: 5%;
-  width: 15%;
+  margin: 0 auto;
+  width: 10%;
   border-top: 2px solid #040707;
 }
-.why .line2 {
-  padding-top: 10px;
-  margin-left: 82%;
-  text-align: right;
-  width: 15%;
-  border-top: 2px solid #040707;
-}
+
 
 /*How teaching works*/
 #how-teaching {

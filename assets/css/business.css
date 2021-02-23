@@ -1,62 +1,58 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #j{
+background-image: url(../images/teach.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+border-bottom: 7px solid #040707;
+  }
+  #j .filter{
+    background: rgba(237, 27, 45, 0.6);
+
+  }
+  #j .filter .cont{
+padding: 40px 35% 30px 30px;
+color: white;
+  }
+  #j .filter .cont h2{
+      font-size: 2.5rem;
+      line-height: 1.5;  
+}
+#j .filter .cont p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+#j .filter .cont p.emphasize{
+letter-spacing: 0.2px;
+font-size: 1.34rem;
 }
-.all-wrapper {
-  margin-top: 30px;
+#j .filter .cont .more{
+    margin-top: 30px;
+background-color: #ed1b2d;
+padding: 12px;
+width:fit-content;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color .4s;
 }
-
-.cont {
-  padding: 0 10%;
-  display: flex;
+#j .filter .cont .more:hover{
+background-color: #040707 ;
 }
-.cont .img {
-  background-image: url('../images/b.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: 300px;
-  border-top-right-radius: 400px;
-  border-bottom-right-radius: 400px;
-  /* border-radius: 250px; */
-}
-.cont .text {
-  text-align: center;
-  margin-top: 30px;
-  padding-left: 40px;
-}
-.cont .text .headline {
-  text-align: left;
-}
-.cont .text p {
-  margin-top: 10px;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-align: left;
-}
-.cont .text .bbtn {
-  margin-top: 30px;
-  text-align: left;
-  background-color: #ed1b2d;
-  border-radius: 3px;
-  padding: 20px;
-  width: 30%;
-  cursor: pointer;
-}
-.cont .text .bbtn:hover {
-  background-color: #b81220;
-}
-.cont .text .bbtn a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  /* letter-spacing: 1.5px; */
-}
-.cont .text .bbtn a b {
+#j .filter .cont a{
+text-decoration: none;
+color: white;
+font-size: 1.2rem;
+letter-spacing: 1px;
 }
