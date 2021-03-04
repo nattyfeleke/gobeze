@@ -11,11 +11,11 @@ body {
   margin-top: 30px;
 }
 
-.cont {
+.g-cont {
   padding: 0 10%;
   display: flex;
 }
-.cont .img {
+.g-cont .g-img {
   background-image: url('../images/b.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,21 +25,21 @@ body {
   border-bottom-right-radius: 400px;
   /* border-radius: 250px; */
 }
-.cont .text {
+.g-cont .g-text {
   text-align: center;
   margin-top: 30px;
   padding-left: 40px;
 }
-.cont .text .headline {
+.g-cont .g-text .g-headline {
   text-align: left;
 }
-.cont .text p {
+.g-cont .g-text p {
   margin-top: 10px;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
 }
-.cont .text .bbtn {
+.g-cont .g-text .bbtn {
   margin-top: 30px;
   text-align: left;
   background-color: #ed1b2d;
@@ -48,10 +48,10 @@ body {
   width: 30%;
   cursor: pointer;
 }
-.cont .text .bbtn:hover {
+.g-cont .g-text .bbtn:hover {
   background-color: #c71827;
 }
-.cont .text .bbtn a {
+.g-cont .g-text .bbtn a {
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
@@ -70,10 +70,10 @@ background-color: #ed1b2d;
   padding: 5%;
   text-align: center;
 }
-#pow .pow-cont .heading{
+#pow .pow-cont .p-heading{
 color: white;
 }
-#pow .pow-cont .heading h1{
+#pow .pow-cont .p-heading h1{
 font-size: 2.5rem;
 }
 #pow .pow-cont .req-btn{
@@ -107,32 +107,32 @@ text-align: center;
 font-size: 2rem;
 line-height: 1.5;
 }
-#prepare .cards{
+#prepare .g-cards{
   text-align: center;
 margin-top: 20px;
 display: flex;
 }
-#prepare .cards .card{
+#prepare .g-cards .g-card{
 width: 32%;
 padding-right: 2%;
 }
-#prepare .cards .card:last-child{
+#prepare .g-cards .g-card:last-child{
 padding-right: 0;
 }
-#prepare .cards .card .card-img{
+#prepare .g-cards .g-card .g-card-img{
 
 }
-#prepare .cards .card .card-img img.card-imgs{
+#prepare .g-cards .g-card .g-card-img img.card-imgs{
   width: auto;
   max-height: 150px;
   padding: 25px 0;
 }
-#prepare .cards .card h4{
+#prepare .g-cards .g-card h4{
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 10px;
 }
-#prepare .cards .card p{
+#prepare .g-cards .g-card p{
   font-size: 1rem;
   line-height: 1.6;
 }
